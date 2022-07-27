@@ -20,7 +20,7 @@ Interestingly California which has the largest population in the USA at over 39.
 
 I was able with the current data construct a KNN Regression algorithm which had ~88% accuracy in predicting the number of deaths given the current factors in my dataset.
 
-![KNN Regression](https://github.com/asullivan42/COVID_Bubble_Estimator/blob/master/figures/knn_regression_by_county.png)
+![KNN Regression](https://github.com/asullivan42/COVID_Bubble_Estimator/blob/master/figures/knn_regression_by_county_sm.png)
 
 I am sure this can be further be improved by updating the dataset with even more factors.  Suggestions I have come up with include population demographics, hospital capacity, average distance to the nearest hospital, and weather.  I'm sure there are many more important factors that should be considered.
 
