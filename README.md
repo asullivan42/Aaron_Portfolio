@@ -12,7 +12,7 @@ In this project I attempted to answer some basic questions about the relative sa
 ### A county by county look at Covid Cases
 The size of the dots are relative to the population sizes in the counties, color relates to number of deaths
 
-![US Map](https://github.com/asullivan42/COVID_Bubble_Estimator/blob/master/figures/County_Cases_deaths.png)
+![US Map](./images/County_Cases_deaths.png)
 
 Interestingly California which has the largest population in the USA at over 39.1 million residents has a moderate mortality rate where Texas, Forida and New York the next three largest population centers are doing much more poorly.  Even more interesting is the fact that some of the smallest counties are struggling the most. 
 
@@ -20,7 +20,7 @@ Interestingly California which has the largest population in the USA at over 39.
 
 I was able with the current data construct a KNN Regression algorithm which had ~88% accuracy in predicting the number of deaths given the current factors in my dataset.
 
-![KNN Regression](https://github.com/asullivan42/COVID_Bubble_Estimator/blob/master/figures/knn_regression_by_county_sm.png)
+![KNN Regression](./images/knn_regression_by_county_sm.png)
 
 I am sure this can be further be improved by updating the dataset with even more factors.  Suggestions I have come up with include population demographics, hospital capacity, average distance to the nearest hospital, and weather.  I'm sure there are many more important factors that should be considered.
 
@@ -60,4 +60,4 @@ The algorithms I testes were:
 
 I did attempt to do some optomization of the algorithm with the Bayseian method of hyperperameter tuning, but kept getting a pandas error within the optomization code which couldn't deal with some boolians generated wihtin.  CatBoosting on the otherhand did show some improvement over the other methods, but not better than the initial Random Forest regressor.  It did allow me to determint the top features which contributed to the price.
 
-<img src="https://github.com/asullivan42/CapstoneTwo/blob/main/figures/Category_Importance2.png">
+![features](./images/Category_Importance2.png)
