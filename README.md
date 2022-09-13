@@ -59,5 +59,6 @@ The algorithms I testes were:
 >***NOTE:** There were a number of columns which had a large number of NaN values.  I dropped all the columns with more than 600 NaN values.*
 **WINNER: Random Forest Regressor**
 
-I did attempt to do some optomization of the algorithm with the Bayseian method of hyperperameter tuning, but kept getting a pandas error within the optomization code which couldn't deal with some boolians generated wihtin.  CatBoosting on the otherhand did show some improvement over the other methods, but not better than the initial Random Forest regressor.  It did allow me to determint the top features which contributed to the price.</br>
+I did attempt to do some optomization of the algorithm with the Bayseian method of hyperperameter tuning, but kept getting a pandas error within the optomization code which couldn't deal with some boolians generated wihtin.  CatBoosting on the otherhand did show some improvement over the other methods, but not better than the initial Random Forest regressor.  It did allow me to determint the top features which contributed to the price.  
+The top three features were the overall quality of the home, the ground floor living area size and the price of other sales in the neighborhood. </br>
 ![features](./images/Category_Importance3.png)
