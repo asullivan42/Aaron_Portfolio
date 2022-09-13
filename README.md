@@ -1,7 +1,7 @@
 # Welcome to Aaron Sullivan PhD's Github portfolio page
 Here I am showcasing some of my data science projects for you to become familiar with my work.
 
-## Coming Soon: Convoluted Neural Network Classification of bacterially infected cells
+## 🛑 Coming Soon: Convoluted Neural Network Classification of bacterially infected cells
 My current project is to identify corneal epithelial cells infected with *Pseudomonas ariginosa* and their healthy neighbors.  This project is working on identifying time lapse images of an in vitro infection and is based on the HOVERNET learning algorithm.
 
 ## Project 1: [COVID Bubble Estimator](https://github.com/asullivan42/COVID_Bubble_Estimator)
