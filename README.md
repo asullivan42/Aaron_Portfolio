@@ -52,7 +52,7 @@ Next I tested out a number of machine learning algorithms.
 The algorithms I testes were:
 * Linear Regression 	       88.48%
 * KNN Regression	           74.37%
-* <font color='green'> Random Forest	               97.96% </font>
+* Random Forest	               97.96% 🟢
 * Gradient Boost Regression	   83.90%
 * CatBoost Regression	       93.00%
 
